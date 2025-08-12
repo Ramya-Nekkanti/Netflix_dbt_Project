@@ -1,0 +1,11 @@
+
+# Ignore virtual environment folder
+venv/
+
+# Ignore logs
+*.log
+
+# Ignore user profile or config files (adjust as needed)
+userprofile/
+*.config
+
