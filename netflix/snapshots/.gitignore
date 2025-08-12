@@ -1,0 +1,16 @@
+# Ignore Python virtual environment
+.venv/
+
+# dbt generated directories
+target/
+dbt_packages/
+logs/
+
+# OS-specific
+.DS_Store
+
+# Environment variables
+.env
+
+# dbt profiles (keep credentials out of repo)
+%userprofile%/.dbt/profiles.yml
